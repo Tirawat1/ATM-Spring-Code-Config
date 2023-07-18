@@ -3,7 +3,7 @@ package atm;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DataSourceDB {
+public class DataSourceDB implements DataSource{
 
     /**
      * Simulate reading customer information from database

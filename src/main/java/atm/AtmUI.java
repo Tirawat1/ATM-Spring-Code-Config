@@ -10,8 +10,9 @@ public class AtmUI {
 
 	private ATM atm;
 
-	public AtmUI() {
-		atm = new ATM();
+	public AtmUI(ATM atm)
+	{
+		this.atm = atm;
 	}
 
 	public void run() {
