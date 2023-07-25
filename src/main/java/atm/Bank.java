@@ -17,12 +17,11 @@ public class Bank {
     * Constructs a bank with no customers.
     */
 
-   public Bank(String name,DataSourceFile dataSourceFile) {
+   public Bank(String name,DataSource dataSource) {
       this.name = name;
-      this.dataSource = dataSourceFile;
+      this.dataSource = dataSource;
       this.customers = dataSource.readCustomers();
    }
-
    /**
     * Adds a customer to the bank.
     * @param customer the customer to add
